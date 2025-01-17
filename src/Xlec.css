@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .xlec-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .xlec-header h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .file-upload-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .file-upload-input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #2980b9;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .file-upload-input:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  .file-upload-input:active {
+    background-color: #1c5988;
+  }
+  
+  
+  .json-output {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .json-output h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .copy-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #2980b9;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .copy-btn:hover {
+    background-color: #3498db;
+  }
